@@ -36,3 +36,7 @@ SELECT * FROM Atores WHERE Genero = 'M'
 
 -- MANEIRA 2
 SELECT PrimeiroNome, UltimoNome, Genero FROM Atores WHERE Genero = 'M'
+
+-- QUESTÃO 9 - Buscar os Atores do gênero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
+
+SELECT * FROM Atores WHERE Genero = 'F' ORDER BY PrimeiroNome ASC
