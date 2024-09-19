@@ -18,4 +18,7 @@ SELECT Nome, Ano, Duracao FROM Filmes WHERE Nome = 'De Volta para o Futuro'
 
 SELECT * FROM Filmes WHERE Ano = 1997
 
+-- QUESTÃO 5 - Buscar os filmes lançados APÓS o ano 2000
+
+SELECT * FROM Filmes WHERE Ano >= 2000
 
